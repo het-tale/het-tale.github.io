@@ -9,7 +9,6 @@
 
 .half {
     height: 41.8rem;
-    width: 79rem;
     margin: 0;
 }
 
@@ -27,7 +26,7 @@
     height: 45rem;
     position: absolute;
     top: 22rem;
-    left: 5rem;
+    left: 42rem;
 }
 
 .header {
