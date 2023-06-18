@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.back-container {
+    display: flex;
+}
+
+.half {
+    height: 41.8rem;
+    width: 79rem;
+    margin: 0;
+}
+
+.top-half {
+    background-color: black;
+}
+
+.bottom-half {
+    background-color: #e3e3e3;
+}
+
+.container {
+    background-color: #fff;
+    width: 70rem;
+    height: 45rem;
+    position: absolute;
+    top: 22rem;
+    left: 5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+.navbar {
+    margin: 2rem 0;
+    color: #242424;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 3rem;
+    font-weight: 600;
+}
+#chat {
+    background-color: black;
+    color: #fff;
+    padding: 3rem;
+}
+
+.logo #e {
+    font-size: 4rem;
+    position: absolute;
+    top: 2rem;
+}
+
+.logo #h {
+    font-size: 4rem;
+}
+
+main {
+    margin: 15em 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+main p, main a{
+    font-weight: 600;
+    font-family:fantasy;
+}
+main h1{
+    font-family:fantasy;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:visited {
+    color: #000;
+}
+
+main img {
+    width: 15rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute;
+    bottom: 2rem; */
+    background-color: #000;
+    color: #fff;
+    padding: 0 2rem;
+}
+
+footer li {
+    display: inline;
+    padding: 0 1rem;
+}
+
+.connect {
+    text-decoration: none;
+    color: #fff;
+}
+.connect:visited {
+    color: #fff;
+}
