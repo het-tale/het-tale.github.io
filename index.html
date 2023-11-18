@@ -1,48 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="shortcut icon" href="assets/coder.svg" type="image/x-icon">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
     <title>Hasnaa Et-taleby</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
+
 <body>
-    <div class="top-half half"></div>
-    <div class="bottom-half half"></div>
-    <div class="container">
-        <header>
-            <nav>
-                <ul class="header">
-                    <div class="logo">
-                        <li><span id="h">H</span><span id="e">E</span></li>
-                    </div>
-                    <div class="navbar">
-                        <li>Work</li>
-                        <li>About</li>
-                        <li id="chat">Let's Talk</li>
-                    </div>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div>
-                <p>Hello There ...</p>
-                <h1>Let's do some work together</h1>
-                <p>Don't hesitate to <a href="#chat">reach out</a></p>
+
+    <!-- home
+    ================================================== -->
+    <main class="s-home s-home--static">
+
+        <div class="overlay"></div>
+
+        <div class="home-content">
+
+            <!-- <div class="home-logo">
+                <a href="index-static.html">
+                    <img src="images/logo.svg" alt="Homepage">
+                </a>
+            </div> -->
+
+            <div class="row home-content__main">
+
+                <div class="col-eight home-content__text pull-right">
+                    <h3>Welcome to My website</h3>
+
+                    <h1>
+                    We are currently working <br>
+                    on a new super awesome <br> website.
+                    </h1>
+
+
+                </div>  <!-- end home-content__text -->
+
+               
+
+            </div>  <!-- end home-content__main -->
+
+            <ul class="home-social">
+                <li>
+                <a href="https://github.com/het-tale/"><i class="fab fa-github" aria-hidden="true"></i><span>Github</span></a>
+                </li>
+                <li>
+                <a href="https://www.linkedin.com/in/hasnaa-et-taleby-1a0b31189/"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+                </li>
+                
+            </ul> <!-- end home-social -->
+
+           
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+    </main> <!-- end s-home -->
+
+    <!-- info
+    ================================================== -->
+    
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
-            <img src="assets/coder.svg" alt="girl sitting next to pc">
-        </main>
-        <footer>
-            <div>
-                <p>&copy;Hasnaa Et-taleby</p>
-                <ul>
-                    <li><a href="https://github.com/het-tale/" class="connect">Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/hasnaa-et-taleby-1a0b31189/" class="connect">LinkedIn</a></li>
-                    <li><a href="https://twitter.com/het_tale" class="connect">Twitter</a></li>
-                </ul>
-            </div> 
-        </footer>
+        </div>
     </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
