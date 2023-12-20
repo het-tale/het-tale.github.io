@@ -34,7 +34,7 @@ const Navbar = () => {
         setIsHidden('none');
     };
     const handleIcon = () => {
-        setIsHidden('block');
+        isHidden === 'none' ? setIsHidden('block') : setIsHidden('none');
     };
 
     React.useEffect(() => {
@@ -50,13 +50,16 @@ const Navbar = () => {
                 marginRight={20}
                 marginTop={5}
             >
-                <Img
-                    src="/assets/heb.png"
-                    alt="logo"
-                    width="100px"
-                    height="100px"
-                    marginLeft={isMobile ? '-5rem' : '0'}
-                ></Img>
+                <Link href="/">
+                    <Img
+                        src="/assets/heb.png"
+                        alt="logo"
+                        width="100px"
+                        height="100px"
+                        marginLeft={isMobile ? '-5rem' : '0'}
+                    ></Img>
+                </Link>
+
                 <UnorderedList
                     listStyleType={'none'}
                     display={{ base: 'none', md: 'block' }}
@@ -72,7 +75,12 @@ const Navbar = () => {
                                 About
                             </Link>
                         </ListItem>
-                        <ListItem marginRight={12}>Projects</ListItem>
+                        <ListItem marginRight={12}>
+                            {' '}
+                            <Link href="#work" color={'#000'}>
+                                Projects
+                            </Link>
+                        </ListItem>
                         <ListItem>Contact</ListItem>
                     </Flex>
                 </UnorderedList>
