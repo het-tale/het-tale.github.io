@@ -81,7 +81,11 @@ const Navbar = () => {
                                 Projects
                             </Link>
                         </ListItem>
-                        <ListItem>Contact</ListItem>
+                        <ListItem>
+                            <Link href="#contact" color={'#000'}>
+                                Contact
+                            </Link>
+                        </ListItem>
                     </Flex>
                 </UnorderedList>
                 <Box
