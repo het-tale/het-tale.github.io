@@ -11,7 +11,6 @@ import {
     useMediaQuery,
     useDisclosure,
     DrawerCloseButton,
-    Portal,
     Link
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';

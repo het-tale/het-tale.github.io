@@ -1,25 +1,6 @@
 import Navbar from './Navbar';
-import {
-    Avatar,
-    Box,
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardHeader,
-    Flex,
-    Grid,
-    GridItem,
-    Heading,
-    Icon,
-    Img,
-    Link,
-    Portal,
-    Text
-} from '@chakra-ui/react';
+import { Flex, Img, Portal, Text } from '@chakra-ui/react';
 import '../Css/style.css';
-import ProjectDesc from './ProjectDesc';
-import Contact from './Contact';
 import Work from './Work';
 import GetInTouch from './GetInTouch';
 import About from './About';
